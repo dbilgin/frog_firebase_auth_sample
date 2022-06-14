@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+    {
+      "type": "shell",
+      "command": "dart_frog dev",
+      "problemMatcher": [],
+      "label": "devserver",
+      "detail": "",
+    }
+  ]
+}
