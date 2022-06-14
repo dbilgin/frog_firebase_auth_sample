@@ -14,8 +14,6 @@ A sample backend project sample with Firebase auth verification using dart_frog.
 
 ## How it works
 
-<hr/>
-
 This project uses [postgres](https://pub.dev/packages/postgres) and [firebase_auth_admin_verify](https://pub.dev/packages/firebase_auth_admin_verify).
 
 For both these packages to work properly first you need to do some set-up.
@@ -50,14 +48,10 @@ This should generate `frog.freezed.dart` and `frog.g.dart` files.
 
 ## Start the server
 
-<hr/>
-
 You can simply run `dart_frog dev`. For more information check out [dart_frog](https://github.com/VeryGoodOpenSource/dart_frog).
 
 If you are using VS Code, this project includes a launch configuration called `froggy` to start the dev server. So you can simply open one of the dart files and press F5 and start the dev server.
 
 ## Aim of the project
-
-<hr/>
 
 This is a proof of concept to get user authentication through JWTs or Firebase auth in this case using [dart_frog](https://github.com/VeryGoodOpenSource/dart_frog) and continue with the usual cycle with DB changes.
