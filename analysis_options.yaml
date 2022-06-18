@@ -10,3 +10,4 @@ linter:
   rules:
     file_names: false
     public_member_api_docs: false
+    require_trailing_commas: false
